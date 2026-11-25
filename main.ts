@@ -1,5 +1,5 @@
 // Tiny stack VM for make.fun's tiny-stack-vm-01 — a faithful interpreter of ISA v1
-// (kit program/generator/subject/ISA.md; vm.mjs is the rule). Answers 40 instances.
+// (kit program/generator/subject/ISA.md; vm.mjs is the reference). Answers 40 instances.
 import { mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
